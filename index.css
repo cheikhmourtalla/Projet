@@ -1,0 +1,159 @@
+body{
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#corps{
+    margin: auto;
+    width: 85%;
+}
+nav a, section h1, aside h1, footer h1{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+header{
+    background-color: rgb(27, 4, 155);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: 10px 15px 5px gray;
+}
+#enetete{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+#logo img{
+    width: 200px;
+    height: 150px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav li{
+    margin-right: 15px;
+}
+nav a{
+    text-decoration-style: solid;
+    color: white;
+    font-size: 1.2em;
+}
+#banniere{
+    background: url("Image/Banniere.jpg");
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 15px 20px 5px black;
+}
+section{
+    display: flex;
+    margin-bottom: 25px;
+    border-bottom: solid 5px grey;
+}
+article{
+    margin-right: 30px;
+}
+article, aside{
+    text-align: justify;
+}
+aside{
+    position: relative;
+    background-color: blue;
+    border-radius: 15px;
+    color: white;
+    box-shadow: 15px 15px gray;
+}
+#ImmoVibe, #rs, aside h1{
+    text-align: center;
+}
+#ImmoVibe img{
+    width: 100px;
+    height: 100px;
+}
+#rs img{
+    width: 30px;
+    height: 30px;
+}
+aside p{
+    padding: 15px;
+}
+footer{
+    display: flex;
+    background-color: blue;
+    color: white;
+}
+#adresse{
+    width: 30%;
+}
+#telephone{
+    width: 30%;
+}
+#partenaire{
+    width: 30%;
+}
+#group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+form{
+    padding: 20px;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(0, 0, 0.1);
+    margin: 300px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+label{
+    width: 150px;
+}
+select{
+    flex: 1;
+    padding: 8px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    margin-right: px;
+}
+#a,#b,#c,#d,#e,#f,#g{
+    flex: 1;
+    padding: 8px;
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+#sub{
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+thead{
+    background: gray;
+}
+.inscrire{
+    text-align: center;
+}
+#button-valider{
+    margin-left: 40%;
+    background-color: blue;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    border: none;
+    width: 200px;
+    border-radius: 12px;
+}
+#button-valider:hover{
+    color: black;
+    background-color: aquamarine;
+}
